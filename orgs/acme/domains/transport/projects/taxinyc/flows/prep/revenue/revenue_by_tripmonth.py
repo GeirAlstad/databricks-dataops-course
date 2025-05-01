@@ -5,6 +5,19 @@
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC 1. Run notebook: `borough_population`
+# MAGIC 1. Run notebook: `revenue_by_tripmonth`
+# MAGIC 1. Run notebook: `revenue_by_borough`
+# MAGIC 1. Run notebook: `revenue_per_inhabitant`. It depends on 1 and 3 completing first.
+# MAGIC
+# MAGIC
+# MAGIC [revenue_by_tripmonth](https://dbc-639f4875-165d.cloud.databricks.com/editor/notebooks/3966035572456749?o=3132861941250972)
+# MAGIC
+# MAGIC - orgs/acme/domains/transport/projects/taxinyc/flows/prep/dltrevenue_w_dq/setupdb
+
+# COMMAND ----------
+
 # MAGIC %pip install brickops=0.3.16
 
 # COMMAND ----------

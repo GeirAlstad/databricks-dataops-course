@@ -48,8 +48,10 @@
 # MAGIC
 # MAGIC ### Run the DLT pipeline
 # MAGIC
-# MAGIC 1. Go to `orgs/acme/domains/transport/projects/taxinyc/flows/prep/dltrevenue/revenue`
-# MAGIC 2. Study the code, and compare to the corresponding pyspark pipelines in `orgs/acme/domains/transport/projects/taxinyc/flows/prep/dltrevenue/`.
+# MAGIC 1. Go to 
+# MAGIC `orgs/acme/domains/transport/projects/taxinyc/flows/prep/dltrevenue/revenue`
+# MAGIC 2. Study the code, and compare to the corresponding pyspark pipelines in 
+# MAGIC `orgs/acme/domains/transport/projects/taxinyc/flows/prep/dltrevenue/`.
 # MAGIC 3. Go to the Pipelines menu under Data Engineering on the left side menu
 # MAGIC 4. Press `Create pipeline`
 # MAGIC     1. Select `Create ETL Pipeline`

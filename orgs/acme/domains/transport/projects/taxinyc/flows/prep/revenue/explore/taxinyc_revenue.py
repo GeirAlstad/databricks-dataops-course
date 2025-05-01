@@ -16,9 +16,7 @@ from pyspark.sql import functions as F
 
 # COMMAND ----------
 
-trips_df = spark.sql(
-    "select * from training.taxinyc_trips.yellow_taxi_trips_curated_sample"
-)
+trips_df = table("training.taxinyc_trips.yellow_taxi_trips_curated_sample")
 trips_df.display()
 
 # COMMAND ----------

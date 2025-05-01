@@ -84,7 +84,7 @@
 # COMMAND ----------
 
 # MAGIC %md 
-# MAGIC _Add reason for the failure here..._
+# MAGIC Expect or fail was used
 
 # COMMAND ----------
 
