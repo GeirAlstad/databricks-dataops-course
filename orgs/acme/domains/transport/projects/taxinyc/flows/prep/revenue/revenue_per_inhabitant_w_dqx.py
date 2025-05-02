@@ -71,6 +71,11 @@ revenue_by_borough_df.display()
 
 # COMMAND ----------
 
+sql(f"show tables in {catalog}.revenue").display()
+
+
+# COMMAND ----------
+
 borough_population_tbl = tablename(cat=catalog, db="revenue", tbl="borough_population")
 print("borough_population_tbl:" + repr(borough_population_tbl))
 borough_population_df = spark.sql(f"select * from {borough_population_tbl}")
@@ -118,7 +123,7 @@ checks = [
     DQRule(
         name="population_share",
         criticality="error",
-        check=is_in_range("population_share", 0, 1)),
+        check=is_in_range("population_share", 0, 100)),
     DQRule(
         name="non_negative_amount",
         criticality="error",

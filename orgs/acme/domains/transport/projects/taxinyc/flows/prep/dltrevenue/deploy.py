@@ -15,11 +15,6 @@
 
 # COMMAND ----------
 
-# Restart python to have access to pip modules
-dbutils.library.restartPython()
-
-# COMMAND ----------
-
 # MAGIC %md
 # MAGIC
 # MAGIC ### Import libs
@@ -113,7 +108,7 @@ run_pipeline(
 # COMMAND ----------
 
 # Deploy pipelines based on deployment.yml, in dev mode
-# prod_response = autopipeline(env="prod")
+prod_response = autopipeline(env="prod")
 
 # COMMAND ----------
 

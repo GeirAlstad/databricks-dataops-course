@@ -37,8 +37,7 @@
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC
-# MAGIC Answer here...
+# MAGIC wrong number format
 
 # COMMAND ----------
 
